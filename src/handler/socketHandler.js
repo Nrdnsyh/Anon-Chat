@@ -272,7 +272,7 @@ _Source : ${result.link}_
           /*-----------------[ End Of Handler ]------------------*/
      } catch (error) {
           console.log(error) // ERRLOG
-          // balas('6285559038021@s.whatsapp.net', util.format(error))
+          // balas('628979928809@s.whatsapp.net', util.format(error))
      }
 };
 
