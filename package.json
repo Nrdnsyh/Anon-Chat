@@ -1,5 +1,5 @@
 {
-  "name": "anon-chat",
+  "name": "WhatsApp",
   "version": "1.3.1",
   "description": "Anonymous chat on whatsapp!",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MRHRTZ/Anon-Chat.git"
+    "url": "git+https://github.com/Nrdnsyh/WhatsApp.git"
   },
   "keywords": [
     "Anonymous chat",
@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/MRHRTZ/Anon-Chat/issues"
   },
-  "homepage": "https://github.com/MRHRTZ/Anon-Chat#readme",
+  "homepage": "https://github.com/Nrdnsyh/WhatsApp#readme",
   "dependencies": {
     "@adiwajshing/baileys": "git+https://github.com/adiwajshing/baileys.git",
     "axios": "^0.21.1",
