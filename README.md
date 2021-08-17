@@ -2,7 +2,7 @@
 <img src="./src/media/screenshot/ss.png"/>
 </p>
 <p align="center">
-<!-- <h1>ANCHT BOT</h1> -->
+<!-- <h1>Ease of Communication Network</h1> -->
 </p>
 <p align="center">
 <a href="https://github.com/MRHRTZ"><img title="Author" src="https://img.shields.io/badge/Author-MRHRTZ-red.svg?style=for-the-badge&logo=github"></a>
@@ -16,8 +16,8 @@
 
 ## Installation
 - Install node js ( <a href="https://nodejs.org/en/download/">Download Here</a> )
-- clone this repo ( git clone https://github.com/MRHRTZ/Anon-Chat )
-- Goto this directory ( cd Anon-Chat )
+- clone this repo ( git clone https://github.com/Nrdnsyh/WhatsApp )
+- Goto this directory ( cd WhatsApp )
 - Install It ( npm i )
 - Run ( npm start )
 
@@ -31,6 +31,6 @@
 - You can change sessions and owner at src/settings.json
 - For different session you must change session name at settings 
 
-## Contact Me
-- <a href="https://wa.me/79581331547?text=Hi">WhatsApp</a>
-- <a href="https://www.instagram.com/hanif_az.sq.61">Instagram</a>
+
+
+
