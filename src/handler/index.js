@@ -119,7 +119,7 @@ module.exports = handle = async (
           if (from.includes('@g.us')) return // Private Chat only
 
           switch (cmd) {
-               case prf + 'help':
+               case prf + 'start':
                case prf + 'menu':
                     balas(from, `${lang == 'id' ? `Halo ${pushname}👋, berikut perintah anonymous chat bot` : `Hi ${pushname}👋, following the anonymous chat bot command`}
                     
@@ -130,8 +130,8 @@ module.exports = handle = async (
 💌 ${prf}sendprofile - _${lang == 'id' ? 'mengirim kontak pribadi anda ke teman chat' : 'send your personal contacts to chat opponents'}_
 ♻️ ${prf}changelang - _${lang == 'id' ? 'mengganti bahasa [EN & ID]' : 'change language [EN & ID]'}_
 ⚠️ ${prf}bug - _${lang == 'id' ? 'mengirim laporan ke pemilik bot' : 'send a report to the bot owner'}_
-🔮 ${prf}owner - _${lang == 'id' ? '+628979928809' : '+628979928809'}_
-👑 ${prf}author - _${lang == 'id' ? '+628979928809' : '+628979928809'}_
+👑 ${prf}owner - _${lang == 'id' ? 'Instagram @instaawokwk' : 'Instagram @instaawokwk'}_
+
 ${isOwner ? `📢 ${prf}broadcast ` + (lang == 'id' ? `<Pesanmu> _Kirim broadcast ke semua kontak_` : `<your message> _Send broadcast to all contacts_`) : ''}
 
 ———————————————————————————
@@ -139,7 +139,7 @@ ${isOwner ? `📢 ${prf}broadcast ` + (lang == 'id' ? `<Pesanmu> _Kirim broadcas
 \`\`\`${lang == 'en' ? 'bahasa yang anda gunakan adalah bahasa inggris, ketik ' + prf + 'changelang untuk mengganti ke bahasa indonesia' : 'the language you use is Indonesian, type ' + prf + 'changelang to change to english'}\`\`\`
           `)
                     break
-               case prf + 'start':
+
                case prf + 'search':
                     if (!isMatched(sender).status) {
                          const strMatch = lang == 'id' ? `\`\`\`Mohon tunggu sedang mencari teman chat\`\`\` 🔎` : `\`\`\`Please wait looking for chat friends\`\`\` 🔎\n\ntype: *${prf}stop* (to stop session)`
